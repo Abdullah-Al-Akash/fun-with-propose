@@ -4,10 +4,13 @@
         box-sizing: border-box;
 }
 
-body {}
+body {
+        background: url(images/bg-love.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
 
 .heading {
-        background: lightpink;
         height: 100vh;
         padding-top: 10%;
 }
@@ -16,14 +19,16 @@ body {}
         display: flex;
         align-items: center;
         justify-content: center;
-        color: darkred
+        color: mediumvioletred;
+        font-size: 30px;
+        font-weight: bold;
 }
 
 a {
         text-decoration: none;
         background: orangered;
         padding: 10px 40px;
-        color: moccasin;
+        color: cyan;
         font-size: 30px;
         font-weight: bold;
         border-radius: 30%;
@@ -38,4 +43,24 @@ a:hover {
 .btn {
         display: flex;
         justify-content: center;
+}
+
+/* ------------------------------------------------------------------------------
+-------------------------------For Part Two-------------------------------
+------------------------------------------------------------------------------ */
+
+.love-u-bg {
+        background: url(images/ans.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 20%;
+}
+
+.love-u-bg h1 {
+        font-size: 60px;
+        font-weight: bold;
+        color: purple;
 }
