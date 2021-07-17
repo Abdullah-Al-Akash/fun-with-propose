@@ -1,0 +1,41 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+body {}
+
+.heading {
+        background: lightpink;
+        height: 100vh;
+        padding-top: 10%;
+}
+
+.main-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: darkred
+}
+
+a {
+        text-decoration: none;
+        background: orangered;
+        padding: 10px 40px;
+        color: moccasin;
+        font-size: 30px;
+        font-weight: bold;
+        border-radius: 30%;
+        margin: 3%;
+}
+
+a:hover {
+        background: gold;
+        color: black;
+}
+
+.btn {
+        display: flex;
+        justify-content: center;
+}
